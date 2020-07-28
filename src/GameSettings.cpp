@@ -395,8 +395,8 @@ void GameSettings::ChangeResolutionOptions(int scr_ctrl)
         wxString * arr_ptr;
         size_t arr_size;
         wxString resolution;
-        if (resMovieCombo != NULL)
-            resolution = resMovieCombo->GetValue();
+        if (resMenuCombo != NULL)
+            resolution = resMenuCombo->GetValue();
         switch (scr_ctrl)
         {
         case 1:

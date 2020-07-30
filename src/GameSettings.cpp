@@ -262,7 +262,7 @@ BEGIN_EVENT_TABLE(GameSettings, wxDialog)
 END_EVENT_TABLE()
 
 GameSettings::GameSettings(wxFrame *parent)
-    : wxDialog (parent, -1, wxT("Settings editor"), wxDefaultPosition, wxSize(530, 580), (wxRESIZE_BORDER | wxCAPTION | wxBORDER_NONE))
+    : wxDialog (parent, -1, wxT("Settings editor"), wxDefaultPosition, wxSize(480, 520), (wxRESIZE_BORDER | wxCAPTION | wxBORDER_NONE))
 
 {
     topsizer = new wxBoxSizer( wxVERTICAL );
